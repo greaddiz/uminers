@@ -1,0 +1,62 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/footer";
+
+@import "../../node_modules/swiper/swiper-bundle.min";
+
+// тестовые стили, удалите их
+
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+	font-family: "Inter", sans-serif;
+	transition: all 0.5s ease;
+
+	&:hover {
+		transition: all 0.5s ease;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+}
+
+.page__body {
+  height: var(--vh);
+}
+
+@import "./block/offer";
+@import "./block/characteristics";
+@import "./block/mining";
+@import "./block/produce";
+@import "./block/delivery";
+@import "./block/lising";
+@import "./block/uminers";
+@import "./block/garant";
+@import "./block/banner";
+@import "./block/process";
+@import "./block/news";
+
+
+@import "./page/contact";
+@import "./page/cart";
+@import "./page/about";
+@import "./page/question";
+@import "./page/data";
+@import "./page/busines";
+@import "./page/invest";
+@import "./page/leasing";
+@import "./page/service";

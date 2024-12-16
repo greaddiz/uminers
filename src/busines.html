@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__body">
+	<div class="site-container">
+		@include('partials/header.html')
+		<main class="main">
+			<section class="busines">
+				<div class="container">
+					<h1 class="busines__title">
+						Постройте свой майнинг-бизнес «под ключ» с Юмайнерс
+					</h1>
+					<p class="busines__text">
+						Доверьте контроль за процессом добычи нашим специалистам
+					</p>
+					<div class="busines__specific">
+						<div class="busines__specific_item">
+							<div class="busines__specific_item_icon">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M16 12V15M16 12H17.8031C18.921 12 19.48 12 19.9074 11.7822C20.2837 11.5905 20.5905 11.2837 20.7822 10.9074C21 10.48 21 9.921 21 8.80309V8.19691C21 7.07899 21 6.5192 20.7822 6.0918C20.5905 5.71547 20.2837 5.40973 19.9074 5.21799C19.4796 5 18.9203 5 17.8002 5H14.2002C13.0801 5 12.5196 5 12.0918 5.21799C11.7155 5.40973 11.4097 5.71547 11.218 6.0918C11 6.51962 11 7.08009 11 8.2002V8.80019C11 9.9203 11 10.4796 11.218 10.9074C11.4097 11.2837 11.7155 11.5905 12.0918 11.7822C12.5192 12 13.079 12 14.1969 12H16ZM7 10L5 12L3 10M3 7L5 5L7 7M3 21.0002V19.2002C3 18.0801 3 17.5196 3.21799 17.0918C3.40973 16.7155 3.71547 16.4097 4.0918 16.218C4.51962 16 5.08009 16 6.2002 16H17.8002C18.9203 16 19.4796 16 19.9074 16.218C20.2837 16.4097 20.5905 16.7155 20.7822 17.0918C21 17.5192 21 18.079 21 19.1969V21.0002"
+										stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</div>
+							<p class="busines__specific_item_text">
+								От подбора самых прибыльных майнеров до их размещения в собственных дата-центрах
+							</p>
+						</div>
+						<div class="busines__specific_item">
+							<div class="busines__specific_item_icon">
+								<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_755_25193)">
+										<path
+											d="M19.1435 5.56602L19.1435 5.56598L12.2529 1.38964C12.2529 1.38963 12.2529 1.38962 12.2529 1.38961C11.8748 1.16052 11.4411 1.0394 10.999 1.0394C10.5569 1.0394 10.1233 1.16052 9.74519 1.38961C9.74518 1.38962 9.74516 1.38963 9.74514 1.38964L2.85457 5.56598L2.85451 5.56602C2.49874 5.78159 2.20456 6.08525 2.00036 6.44767C1.79618 6.81008 1.68888 7.219 1.68881 7.63496C1.68881 7.63498 1.68881 7.63501 1.68881 7.63503V14.3641V14.3645C1.6885 14.7809 1.79563 15.1903 1.99984 15.5531C2.20405 15.916 2.49843 16.22 2.85451 16.4357L8.13994 19.6382L8.14011 19.6383C8.19076 19.669 8.24698 19.6895 8.30553 19.6985C8.36409 19.7075 8.42385 19.7048 8.48138 19.6907C8.53893 19.6766 8.59314 19.6513 8.6409 19.6163C8.68866 19.5812 8.72906 19.5371 8.75978 19.4865C8.7905 19.4358 8.81094 19.3796 8.81993 19.321C8.82893 19.2625 8.8263 19.2027 8.8122 19.1452C8.7981 19.0876 8.77281 19.0334 8.73776 18.9857C8.70277 18.938 8.65873 18.8976 8.60815 18.8669L19.1435 5.56602ZM19.1435 5.56602C19.4993 5.78159 19.7935 6.08525 19.9977 6.44767C20.2019 6.81008 20.3092 7.219 20.3092 7.63496L19.1435 5.56602ZM2.59049 14.3652C2.59026 14.6262 2.65737 14.8829 2.78531 15.1104C2.9133 15.3381 3.09785 15.5288 3.32111 15.6642L3.3214 15.6644L8.60794 18.8668L3.12402 7.63496M2.59049 14.3652C2.59049 14.3651 2.59049 14.365 2.59049 14.3649L3.12402 14.3655H2.59049V14.3652ZM2.59049 14.3652V7.63525M2.59049 7.63525C2.59049 7.63534 2.59049 7.63542 2.59049 7.63551L3.12402 7.63496M2.59049 7.63525V7.63496H3.12402M2.59049 7.63525C2.59026 7.37421 2.65737 7.11752 2.78531 6.88998C2.9133 6.66236 3.09785 6.47161 3.32111 6.33617L3.32136 6.33602L10.2117 2.16111C10.4491 2.01712 10.7214 1.94098 10.999 1.94098C11.2766 1.94098 11.5488 2.01707 11.7861 2.16096C11.7861 2.16099 11.7862 2.16102 11.7862 2.16105C11.7862 2.16107 11.7863 2.16109 11.7863 2.16111L18.6767 6.33602L18.6769 6.33617C18.9002 6.47161 19.0847 6.66236 19.2127 6.88998C19.3407 7.11759 19.4078 7.37438 19.4076 7.6355M3.12402 7.63496L18.874 8.37521C18.874 8.63628 18.9777 8.88666 19.1623 9.07127C19.3469 9.25587 19.5973 9.35959 19.8584 9.35959C20.1195 9.35959 20.3699 9.25587 20.5545 9.07127C20.7391 8.88666 20.8428 8.63628 20.8428 8.37521V7.63496L20.3092 7.63503V8.37521C20.3092 8.49478 20.2617 8.60945 20.1772 8.694C20.0926 8.77855 19.978 8.82605 19.8584 8.82605C19.7388 8.82605 19.6242 8.77855 19.5396 8.694C19.4551 8.60945 19.4076 8.49478 19.4076 8.37521V7.6355M19.4076 7.6355L18.874 7.63496H19.4076V7.6355Z"
+											fill="white" stroke="white" stroke-width="1.06707" />
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M15.9196 10.1136L15.9209 10.0585V9.68311C15.9209 9.42203 15.8172 9.17165 15.6326 8.98705C15.448 8.80244 15.1976 8.69873 14.9365 8.69873C14.6755 8.69873 14.4251 8.80244 14.2405 8.98705C14.0559 9.17165 13.9521 9.42203 13.9521 9.68311V10.0585L13.9535 10.1136C13.3361 10.239 12.7487 10.4823 12.2236 10.8302C12.2108 10.8167 12.1977 10.8036 12.1842 10.7909L11.9204 10.5244C11.7338 10.3505 11.487 10.2559 11.232 10.2604C10.9769 10.2649 10.7336 10.3682 10.5533 10.5485C10.3729 10.7289 10.2696 10.9722 10.2651 11.2272C10.2606 11.4823 10.3553 11.7291 10.5291 11.9157L10.793 12.1821L10.8323 12.2189C10.4911 12.736 10.2417 13.3214 10.1144 13.95C10.0969 13.9492 10.0794 13.9488 10.0619 13.9487H9.68652C9.42545 13.9487 9.17507 14.0524 8.99047 14.237C8.80586 14.4217 8.70215 14.672 8.70215 14.9331C8.70215 15.1942 8.80586 15.4446 8.99047 15.6292C9.17507 15.8138 9.42545 15.9175 9.68652 15.9175H10.0619L10.1118 15.9162C10.2391 16.5462 10.4871 17.1315 10.8297 17.6487C10.8171 17.6601 10.8049 17.672 10.793 17.6841L10.5278 17.9492C10.354 18.1358 10.2593 18.3826 10.2638 18.6377C10.2683 18.8927 10.3716 19.136 10.552 19.3164C10.7323 19.4967 10.9756 19.6 11.2306 19.6045C11.4857 19.609 11.7325 19.5144 11.9191 19.3405L12.1855 19.0754C12.1968 19.0643 12.2077 19.0529 12.2183 19.0412C12.7368 19.3838 13.3235 19.6319 13.9535 19.7605L13.9521 19.8077V20.1831C13.9521 20.4442 14.0559 20.6946 14.2405 20.8792C14.4251 21.0638 14.6755 21.1675 14.9365 21.1675C15.1976 21.1675 15.448 21.0638 15.6326 20.8792C15.8172 20.6946 15.9209 20.4442 15.9209 20.1831V19.8077V19.7605C16.5509 19.6332 17.1363 19.3838 17.6534 19.0412L17.6875 19.0754L17.9526 19.3418C18.1384 19.521 18.3871 19.6201 18.6452 19.6178C18.9033 19.6154 19.1501 19.5118 19.3326 19.3292C19.515 19.1466 19.6184 18.8996 19.6205 18.6415C19.6226 18.3834 19.5233 18.1348 19.3439 17.9492L19.0801 17.6841C19.0682 17.6724 19.0559 17.661 19.0433 17.65C19.3859 17.1315 19.634 16.5449 19.7613 15.9162H20.1865C20.4476 15.9162 20.698 15.8125 20.8826 15.6279C21.0672 15.4432 21.1709 15.1929 21.1709 14.9318C21.1709 14.6707 21.0672 14.4203 20.8826 14.2357C20.698 14.0511 20.4476 13.9474 20.1865 13.9474H19.8111L19.7586 13.95C19.6329 13.3322 19.3892 12.7444 19.0407 12.2189L19.0801 12.1821L19.3452 11.917C19.5246 11.7314 19.624 11.4828 19.6218 11.2247C19.6197 10.9666 19.5163 10.7197 19.3339 10.5371C19.1514 10.3545 18.9046 10.2508 18.6465 10.2485C18.3884 10.2461 18.1397 10.3452 17.954 10.5244L17.6875 10.7895L17.6495 10.8289C17.1242 10.4814 16.5369 10.2386 15.9196 10.1136ZM14.9365 11.9839C14.5486 11.9834 14.1643 12.0594 13.8058 12.2077C13.4473 12.3559 13.1215 12.5734 12.8472 12.8477C12.5729 13.122 12.3554 13.4478 12.2071 13.8063C12.0589 14.1648 11.9829 14.5491 11.9834 14.937C11.9829 15.325 12.0589 15.7092 12.2071 16.0678C12.3554 16.4263 12.5729 16.752 12.8472 17.0264C13.1215 17.3007 13.4473 17.5182 13.8058 17.6664C14.1643 17.8147 14.5486 17.8907 14.9365 17.8902C15.3245 17.8907 15.7087 17.8147 16.0672 17.6664C16.4258 17.5182 16.7515 17.3007 17.0259 17.0264C17.3002 16.752 17.5177 16.4263 17.6659 16.0678C17.8141 15.7092 17.8902 15.325 17.8896 14.937C17.8902 14.5491 17.8141 14.1648 17.6659 13.8063C17.5177 13.4478 17.3002 13.122 17.0259 12.8477C16.7515 12.5734 16.4258 12.3559 16.0672 12.2077C15.7087 12.0594 15.3245 11.9834 14.9365 11.9839Z"
+											fill="white" />
+									</g>
+									<defs>
+										<clipPath id="clip0_755_25193">
+											<rect width="21" height="21" fill="white" transform="translate(0.5 0.5)" />
+										</clipPath>
+									</defs>
+								</svg>
+							</div>
+							<p class="busines__specific_item_text">
+								Решение всех вопросов по обеспечению бесперебойной работы и прибыльности майнинг предприятия
+							</p>
+						</div>
+					</div>
+					<a href="#" class="busines__btn">
+						Получить предложение
+					</a>
+				</div>
+			</section>
+			<section class="garant">
+				<div class="container">
+					<div class="garant__block">
+						<div class="garant__block_left">
+							<div class="garant__block_left_subtitle">
+								<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M11.25 6.75098L8.25 9.75098L6.75 8.25098M15 7.62476C15 12.551 11.274 14.7595 9.69434 15.4745L9.69235 15.4754C9.52621 15.5506 9.44294 15.5883 9.25415 15.6207C9.1346 15.6412 8.86616 15.6412 8.7466 15.6207C8.55707 15.5882 8.47292 15.5503 8.30546 15.4745C6.72585 14.7595 3 12.5509 3 7.62476V4.65112C3 3.81104 3 3.39069 3.16349 3.06982C3.3073 2.78758 3.5366 2.55828 3.81885 2.41447C4.13972 2.25098 4.56007 2.25098 5.40015 2.25098H12.6001C13.4402 2.25098 13.8597 2.25098 14.1805 2.41447C14.4628 2.55828 14.6929 2.78758 14.8367 3.06982C15 3.39038 15 3.81022 15 4.64866V7.62476Z"
+										stroke="#03C1AD" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+								Легально, надежно, с гарантией
+							</div>
+							<h2 class="garant__block_left_title">
+								Майнинг для юридических лиц с экономией до 40%
+							</h2>
+							<p class="garant__block_left_text">
+								Полностью официальная деятельность по добыче криптовалюты
+							</p>
+						</div>
+						<div class="garant__block_right">
+							<img src="img/garant__block_right_img.png" alt="garant__block_right_img"
+								class="garant__block_right_img">
+						</div>
+					</div>
+					<div class="garant__list">
+						<div class="garant__list_item">
+							<div class="garant__list_item_icon">
+								<svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M3.1543 2.8125H3.39655C3.82427 2.8125 4.03851 2.8125 4.21296 2.88967C4.36677 2.9577 4.49827 3.06724 4.5931 3.20614C4.70048 3.36343 4.73925 3.57345 4.81665 3.99268L6.76544 14.5487L16.174 14.5486C16.5831 14.5486 16.7883 14.5486 16.9578 14.4763C17.1075 14.4125 17.2366 14.309 17.3325 14.1775C17.4409 14.0288 17.4869 13.8297 17.5787 13.432L17.5793 13.4291L18.996 7.29024L18.9963 7.28896C19.1356 6.68556 19.2054 6.38313 19.1287 6.1459C19.0615 5.93776 18.92 5.76128 18.7323 5.64896C18.5182 5.52083 18.2088 5.52083 17.5886 5.52083H5.41124M16.696 19.0625C16.1974 19.0625 15.7932 18.6583 15.7932 18.1597C15.7932 17.6611 16.1974 17.2569 16.696 17.2569C17.1946 17.2569 17.5987 17.6611 17.5987 18.1597C17.5987 18.6583 17.1946 19.0625 16.696 19.0625ZM7.66819 19.0625C7.1696 19.0625 6.76541 18.6583 6.76541 18.1597C6.76541 17.6611 7.1696 17.2569 7.66819 17.2569C8.16678 17.2569 8.57096 17.6611 8.57096 18.1597C8.57096 18.6583 8.16678 19.0625 7.66819 19.0625Z"
+										stroke="url(#paint0_linear_2003_1318)" stroke-width="2.6" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<defs>
+										<linearGradient id="paint0_linear_2003_1318" x1="11.1573" y1="2.8125" x2="11.1573"
+											y2="19.0625" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#454A54" />
+											<stop offset="1" stop-color="#454A54" stop-opacity="0.8" />
+										</linearGradient>
+									</defs>
+								</svg>
+							</div>
+							<h3 class="garant__list_item_title">
+								Покупка оборудования с НДС
+							</h3>
+							<p class="garant__list_item_text">
+								Возможность постановки майнеров на баланс предприятия
+							</p>
+						</div>
+						<div class="garant__list_item">
+							<div class="garant__list_item_icon">
+								<svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M13.9852 8.22917L10.3741 11.8403L8.56858 10.0347M18.4991 9.28095C18.4991 15.2106 14.0141 17.8691 12.1127 18.7297L12.1103 18.7308C11.9103 18.8213 11.8101 18.8667 11.5828 18.9057C11.4389 18.9304 11.1158 18.9304 10.9719 18.9057C10.7437 18.8665 10.6425 18.821 10.4409 18.7297C8.53951 17.8691 4.05469 15.2106 4.05469 9.28094V5.70157C4.05469 4.69036 4.05469 4.18438 4.25148 3.79815C4.42459 3.45841 4.7006 3.1824 5.04034 3.00929C5.42657 2.8125 5.93255 2.8125 6.94375 2.8125H15.6104C16.6216 2.8125 17.1265 2.8125 17.5128 3.00929C17.8525 3.1824 18.1294 3.45841 18.3025 3.79815C18.4991 4.184 18.4991 4.68937 18.4991 5.6986V9.28095Z"
+										stroke="url(#paint0_linear_2003_1320)" stroke-width="2.6" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<defs>
+										<linearGradient id="paint0_linear_2003_1320" x1="11.2769" y1="2.8125" x2="11.2769"
+											y2="18.9242" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#454A54" />
+											<stop offset="1" stop-color="#454A54" stop-opacity="0.8" />
+										</linearGradient>
+									</defs>
+								</svg>
+							</div>
+							<h3 class="garant__list_item_title">
+								Легальная деятельность с НДС
+							</h3>
+							<p class="garant__list_item_text">
+								Изменения в законодательстве позволяют предприятиям легально зарабатывать на майнинге
+							</p>
+						</div>
+						<div class="garant__list_item">
+							<div class="garant__list_item_icon">
+								<svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M16.6947 10.9371V15.451C16.6947 16.9467 14.2695 18.1593 11.278 18.1593C8.28645 18.1593 5.86133 16.9467 5.86133 15.451V10.9371M16.6947 10.9371V6.42318M16.6947 10.9371C16.6947 12.4328 14.2695 13.6454 11.278 13.6454C8.28645 13.6454 5.86133 12.4328 5.86133 10.9371M16.6947 6.42318C16.6947 4.92741 14.2695 3.71484 11.278 3.71484C8.28645 3.71484 5.86133 4.92741 5.86133 6.42318M16.6947 6.42318C16.6947 7.91895 14.2695 9.13151 11.278 9.13151C8.28645 9.13151 5.86133 7.91895 5.86133 6.42318M5.86133 10.9371V6.42318"
+										stroke="url(#paint0_linear_2003_594)" stroke-width="2.6" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<defs>
+										<linearGradient id="paint0_linear_2003_594" x1="11.278" y1="3.71484" x2="11.278"
+											y2="18.1593" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#454A54" />
+											<stop offset="1" stop-color="#454A54" stop-opacity="0.8" />
+										</linearGradient>
+									</defs>
+								</svg>
+							</div>
+							<h3 class="garant__list_item_title">
+								Покупка оборудования с НДС
+							</h3>
+							<p class="garant__list_item_text">
+								Возможность постановки майнеров на баланс предприятия
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="mining">
+				<div class="container">
+					<div class="mining__tag">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<mask id="mask0_2131_12421" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+								width="24" height="24">
+								<rect width="24" height="24" fill="#D9D9D9" />
+							</mask>
+							<g mask="url(#mask0_2131_12421)">
+								<path
+									d="M7.99914 22.0005L8.99914 15.0005H3.99915L12.9991 2.00049H14.9991L13.9991 10.0005H19.9991L9.99914 22.0005H7.99914Z"
+									fill="#03C1AD" />
+							</g>
+						</svg>
+						Майнинг под ключ
+					</div>
+					<div class="mining__top">
+						<h2 class="mining__title">
+							Берём на себя полный цикл задач <span>по организации процесса</span>
+						</h2>
+						<p class="mining__text">
+							Проведем консультацию и подберем оборудование под вашу финансовую модель, проконтролируем все этапы
+							от
+							доставки до установки
+						</p>
+					</div>
+					<div class="mining__list">
+						<div class="mining__item revers align-center">
+							<div class="mining__item_info">
+								<h3 class="mining__item_title">
+									Эксперт «Юмайнерс» с опытом 7+ лет в сфере майнинга подберет оптимальные варианты развития
+									бизнеса в вашем случае
+								</h3>
+							</div>
+							<div class="mining__image">
+								<img src="img/busines__mining_01.png" alt="mining__image">
+							</div>
+						</div>
+						<div class="mining__item align-center">
+							<div class="mining__item_info">
+								<h3 class="mining__item_title">
+									У нас прямые контракты с производителями Bitmain, MicroBT, Canaan и одни из самых выгодных
+									цен на рынке
+								</h3>
+							</div>
+							<div class="mining__item_action">
+								<div class="mining__item_action_list">
+									<div class="mining__item_action_icon">
+										<img src="img/mining__item_action_01.png" alt="mining__item_action_01.png">
+									</div>
+									<div class="mining__item_action_icon">
+										<img src="img/mining__item_action_02.png" alt="mining__item_action_02.png">
+									</div>
+									<div class="mining__item_action_icon">
+										<img src="img/mining__item_action_03.png" alt="mining__item_action_03.png">
+									</div>
+									<div class="mining__item_action_icon">
+										<img src="img/mining__item_action_04.png" alt="mining__item_action_04.png">
+									</div>
+									<div class="mining__item_action_icon">
+										<img src="img/mining__item_action_05.png" alt="mining__item_action_05.png">
+									</div>
+									<div class="mining__item_action_icon">
+										<img src="img/mining__item_action_06.png" alt="mining__item_action_06.png">
+									</div>
+								</div>
+								<div class="mining__item_action_block">
+									<p class="mining__item_action_block_title">
+										<svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_755_12921)">
+												<rect x="0.701172" y="0.0893555" width="24" height="24" rx="5.53846" fill="black" />
+												<g filter="url(#filter0_d_755_12921)">
+													<path
+														d="M24.2403 14.3966C24.2403 14.6006 24.1592 14.7963 24.015 14.9406C23.8707 15.0848 23.6751 15.1659 23.471 15.1659H21.9326V16.7043C21.9326 16.9083 21.8516 17.1039 21.7073 17.2482C21.5631 17.3925 21.3674 17.4735 21.1634 17.4735C20.9594 17.4735 20.7637 17.3925 20.6195 17.2482C20.4752 17.1039 20.3942 16.9083 20.3942 16.7043V15.1659H18.8557C18.6517 15.1659 18.4561 15.0848 18.3118 14.9406C18.1676 14.7963 18.0865 14.6006 18.0865 14.3966C18.0865 14.1926 18.1676 13.997 18.3118 13.8527C18.4561 13.7085 18.6517 13.6274 18.8557 13.6274H20.3942V12.089C20.3942 11.885 20.4752 11.6893 20.6195 11.5451C20.7637 11.4008 20.9594 11.3198 21.1634 11.3198C21.3674 11.3198 21.5631 11.4008 21.7073 11.5451C21.8516 11.6893 21.9326 11.885 21.9326 12.089V13.6274H23.471C23.6751 13.6274 23.8707 13.7085 24.015 13.8527C24.1592 13.997 24.2403 14.1926 24.2403 14.3966ZM5.77908 6.70448H7.31751V8.24291C7.31751 8.44692 7.39855 8.64257 7.54281 8.78683C7.68707 8.93108 7.88272 9.01213 8.08673 9.01213C8.29074 9.01213 8.48639 8.93108 8.63064 8.78683C8.7749 8.64257 8.85594 8.44692 8.85594 8.24291V6.70448H10.3944C10.5984 6.70448 10.794 6.62344 10.9383 6.47918C11.0825 6.33492 11.1636 6.13927 11.1636 5.93526C11.1636 5.73125 11.0825 5.5356 10.9383 5.39134C10.794 5.24709 10.5984 5.16605 10.3944 5.16605H8.85594V3.62761C8.85594 3.42361 8.7749 3.22795 8.63064 3.0837C8.48639 2.93944 8.29074 2.8584 8.08673 2.8584C7.88272 2.8584 7.68707 2.93944 7.54281 3.0837C7.39855 3.22795 7.31751 3.42361 7.31751 3.62761V5.16605H5.77908C5.57507 5.16605 5.37942 5.24709 5.23516 5.39134C5.09091 5.5356 5.00986 5.73125 5.00986 5.93526C5.00986 6.13927 5.09091 6.33492 5.23516 6.47918C5.37942 6.62344 5.57507 6.70448 5.77908 6.70448ZM18.0865 18.2427H17.3173V17.4735C17.3173 17.2695 17.2363 17.0738 17.092 16.9296C16.9478 16.7853 16.7521 16.7043 16.5481 16.7043C16.3441 16.7043 16.1484 16.7853 16.0042 16.9296C15.8599 17.0738 15.7789 17.2695 15.7789 17.4735V18.2427H15.0097C14.8057 18.2427 14.61 18.3238 14.4658 18.468C14.3215 18.6123 14.2405 18.8079 14.2405 19.0119C14.2405 19.2159 14.3215 19.4116 14.4658 19.5558C14.61 19.7001 14.8057 19.7811 15.0097 19.7811H15.7789V20.5504C15.7789 20.7544 15.8599 20.95 16.0042 21.0943C16.1484 21.2385 16.3441 21.3196 16.5481 21.3196C16.7521 21.3196 16.9478 21.2385 17.092 21.0943C17.2363 20.95 17.3173 20.7544 17.3173 20.5504V19.7811H18.0865C18.2905 19.7811 18.4862 19.7001 18.6305 19.5558C18.7747 19.4116 18.8557 19.2159 18.8557 19.0119C18.8557 18.8079 18.7747 18.6123 18.6305 18.468C18.4862 18.3238 18.2905 18.2427 18.0865 18.2427ZM21.4817 7.47369L8.08673 20.8686C7.79824 21.1569 7.40709 21.3189 6.99925 21.3189C6.59141 21.3189 6.20025 21.1569 5.91177 20.8686L3.92142 18.8802C3.77853 18.7373 3.66518 18.5677 3.58784 18.3811C3.51051 18.1944 3.4707 17.9943 3.4707 17.7922C3.4707 17.5902 3.51051 17.3901 3.58784 17.2034C3.66518 17.0168 3.77853 16.8471 3.92142 16.7043L17.3173 3.30935C17.4602 3.16646 17.6298 3.05311 17.8165 2.97577C18.0031 2.89844 18.2032 2.85863 18.4053 2.85863C18.6073 2.85863 18.8074 2.89844 18.9941 2.97577C19.1808 3.05311 19.3504 3.16646 19.4932 3.30935L21.4817 5.29777C21.6246 5.44064 21.7379 5.61025 21.8152 5.79692C21.8926 5.98359 21.9324 6.18367 21.9324 6.38573C21.9324 6.58779 21.8926 6.78787 21.8152 6.97455C21.7379 7.16122 21.6246 7.33083 21.4817 7.47369ZM20.3942 6.38621L18.4048 4.39683L15.3279 7.47369L17.3173 9.46308L20.3942 6.38621Z"
+														fill="white" />
+												</g>
+											</g>
+											<defs>
+												<filter id="filter0_d_755_12921" x="-1.49892" y="-1.16499" width="28.4021"
+													height="28.4017" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+													<feFlood flood-opacity="0" result="BackgroundImageFix" />
+													<feColorMatrix in="SourceAlpha" type="matrix"
+														values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+													<feOffset dy="0.946727" />
+													<feGaussianBlur stdDeviation="0.946727" />
+													<feComposite in2="hardAlpha" operator="out" />
+													<feColorMatrix type="matrix"
+														values="0 0 0 0 0.901667 0 0 0 0 0.901667 0 0 0 0 0.901667 0 0 0 0.54 0" />
+													<feBlend mode="normal" in2="BackgroundImageFix"
+														result="effect1_dropShadow_755_12921" />
+													<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_755_12921"
+														result="shape" />
+												</filter>
+												<clipPath id="clip0_755_12921">
+													<rect x="0.701172" y="0.0893555" width="24" height="24" rx="5.53846"
+														fill="white" />
+												</clipPath>
+											</defs>
+										</svg>
+										Выбор техники
+									</p>
+									<p class="mining__item_action_block_text">
+										Представлены самые ведущие бренды
+									</p>
+									<div class="mining__item_action_block_links">
+										<a href="#">
+											В каталог
+										</a>
+										<a href="#">
+											Консультация
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="mining__item revers align-center">
+							<div class="mining__item_info">
+								<h3 class="mining__item_title">
+									Официальное таможенное оформление, ГТД РФ
+									и ГТД РБ
+								</h3>
+							</div>
+							<div class="mining__image">
+								<img src="img/busines__mining_03.png" alt="mining__image">
+							</div>
+						</div>
+						<div class="mining__item align-center">
+							<div class="mining__item_info">
+								<h3 class="mining__item_title">
+									Доставим собственной логистической компанией и разместим оборудование в наших дата-центрах
+								</h3>
+							</div>
+							<div class="mining__image">
+								<img src="img/busines__mining_04.png" alt="mining__image">
+							</div>
+						</div>
+						<div class="mining__item revers align-center">
+							<div class="mining__item_info">
+								<h3 class="mining__item_title">
+									Вы сможете в онлайн режиме отслеживать процесс работы оборудования и удаленно контролировать
+									рост своего пассивного дохода
+								</h3>
+							</div>
+							<div class="mining__image">
+								<img src="img/busines__mining_05.png" alt="mining__image">
+							</div>
+						</div>
+						<div class="mining__item dark">
+							<div class="mining__item_info">
+								<h3 class="mining__item_title">
+									Рассчитайте доходность
+									и срок окупаемости вложений <span>онлайн</span>
+								</h3>
+								<button class="mining__item_btn">
+									Рассчитать доходность
+								</button>
+							</div>
+							<div class="mining__image">
+								<img src="img/mining06.png" alt="mining__image">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="cryptotime">
+				<div class="container">
+					<h2 class="cryptotime__title">
+						Лучшее время <br> для биткоина — сейчас
+					</h2>
+					<p class="cryptotime__text">
+						Главное — не ошибиться с проводником в мир майнинга и выбрать для сотрудничества надёжного партнёра
+					</p>
+					<div class="cryptotime__top">
+						<p class="cryptotime__top_text">
+							Лучший финансовый актив за последнее десятилетие, опережающий золото и ведущие фондовые индексы
+						</p>
+						<a href="#" class="cryptotime__top_btn">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<mask id="mask0_755_26435" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+									width="24" height="24">
+									<rect width="24" height="24" fill="#D9D9D9" />
+								</mask>
+								<g mask="url(#mask0_755_26435)">
+									<path
+										d="M7.99902 22.0005L8.99902 15.0005H3.99902L12.999 2.00049H14.999L13.999 10.0005H19.999L9.99902 22.0005H7.99902Z"
+										fill="white" />
+								</g>
+							</svg>
+							Почему Биткоин?
+						</a>
+					</div>
+					<div class="cryptotime__image">
+						<img src="img/cryptotime__image.png" alt="cryptotime_img">
+					</div>
+				</div>
+			</section>
+			<section class="process">
+				<div class="container">
+					<div class="process__block">
+						<div class="process__left">
+							<h2 class="process__title">
+								Майнеры размещаются <br> в дата-центре «Юмайнерс» в Красноярском крае
+							</h2>
+							<p class="process__text">
+								Рабочие процессы и безопасность контролируются нашими специалистами и сотрудниками «Росгвардии»
+								24/7
+							</p>
+						</div>
+						<div class="process__right">
+							<p class="process__right_text">
+								Стабильный бизнес, который работает в автономном режиме, не требуя постоянного контроля и
+								участия
+							</p>
+							<a href="#" class="process__right_link">
+								Подробнее о дата-центре
+							</a>
+						</div>
+					</div>
+					<div class="process__list">
+						<div class="process__item">
+							<div class="process__item_mark">
+								пункт договора
+							</div>
+							<div class="process__item_heading">
+								Обязательная страховка
+							</div>
+							<h3 class="process__item_title">
+								При составлении договора, оговаривается ответственность сторон и меры по сохранности
+								оборудования
+							</h3>
+							<p class="process__item_text">
+								Страховка от рисков - обязательный пункт договора
+							</p>
+							<a href="#" class="process__item_btn">
+								Условия страхования
+							</a>
+						</div>
+						<div class="process__item">
+							<h3 class="process__item_title">
+								Гарантируем бесперебойное
+								интернет-соединение и непрерывное электропитание
+							</h3>
+							<p class="process__item_text">
+								Используем двойное резервирование каналов связи и электропитания
+							</p>
+							<img src="img/process__item_02.png" alt="process__item_02" class="process__item_img">
+						</div>
+						<div class="process__item process__item_fullbg">
+							<h3 class="process__item_title">
+								Работаем открыто
+							</h3>
+							<p class="process__item_text">
+								Организуем для клиентов экскурсии в ЦОД, подробно знакомим со всеми процессами
+							</p>
+							<a href="#" class="process__item_btn">
+								Прозрачность процессов
+							</a>
+							<img src="img/process__item_03.png" alt="process__item_02" class="process__item_img">
+						</div>
+						<div class="process__item process__item_fullbg">
+							<h3 class="process__item_title">
+								Специалисты следят за работой оборудования 24/7
+							</h3>
+							<p class="process__item_text">
+								Подразделения сервисного центра располагаются непосредственно в дата-центре для обслуживания и
+								ремонта
+								майнеров на месте
+							</p>
+							<a href="#" class="process__item_btn">
+								Техподдержка
+							</a>
+							<img src="img/process__item_04.png" alt="process__item_02" class="process__item_img">
+						</div>
+						<div class="process__item">
+							<h3 class="process__item_title">
+								Профессиональный сервис, обеспечивающий минимальные сроки простоя
+							</h3>
+							<p class="process__item_text">
+								Весь процесс организации, доставки и установки в дата-центре мы берём на себя
+							</p>
+							<img src="img/process__item_05.png" alt="process__item_02" class="process__item_img">
+						</div>
+						<div class="process__item process__item_reverse">
+							<h3 class="process__item_title">
+								Передовые системы охлаждения
+							</h3>
+							<p class="process__item_text">
+								Дополнительные системы охлаждения дата-центра обеспечивают рекомендованные производителем
+								условия
+								максимально эффективной работы
+							</p>
+							<a href="#" class="process__item_btn">
+								Оборудованные помещения
+							</a>
+							<img src="img/process__item_06.png" alt="process__item_02" class="process__item_img">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="cod">
+				<div class="container">
+					<div class="cod__block">
+						<div class="cod__info">
+							<h2 class="cod__info_title">
+								Новый ЦОД Юмайнерс в Эфиопии – инвестируйте в будущее с надежным российским партнером
+							</h2>
+							<p class="cod__info_text">
+								Запуск первой очереди нового ЦОД в столице Эфиопии Аддис-Абебе состоится в 4-м квартале 2024
+							</p>
+						</div>
+						<p class="cod__subtext">
+							Сейчас самый выгодный момент для инвестирования
+						</p>
+					</div>
+					<div class="cod__image">
+						<div class="cod__image_list">
+							<div class="cod__image_list_item">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="mask0_755_26609" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+										width="24" height="24">
+										<rect width="24" height="24" fill="#D9D9D9" />
+									</mask>
+									<g mask="url(#mask0_755_26609)">
+										<path
+											d="M8.57553 21.501L9.494 15.0717L9.57553 14.501H8.99902H4.95331L13.261 2.50098H14.4326L13.5029 9.93896L13.4326 10.501H13.999H18.9315L9.76484 21.501H8.57553Z"
+											stroke="#008088" />
+									</g>
+								</svg>
+								Мощность: 1 фаза 100 МВт
+							</div>
+							<div class="cod__image_list_item">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M21.6002 7.99968C21.4783 8.00018 21.3579 7.97281 21.2482 7.91968L12.0002 3.19968L2.75222 7.88768C2.5549 7.98104 2.32857 7.99218 2.12303 7.91867C1.91749 7.84515 1.74957 7.693 1.65622 7.49568C1.56286 7.29836 1.55171 7.07203 1.62523 6.86649C1.69874 6.66095 1.8509 6.49304 2.04822 6.39968L12.0002 1.47168L21.9522 6.39968C22.162 6.44869 22.344 6.57836 22.4589 6.76061C22.5738 6.94286 22.6122 7.16302 22.5659 7.37341C22.5196 7.58381 22.3923 7.7675 22.2116 7.88472C22.0308 8.00194 21.8112 8.04324 21.6002 7.99968ZM8.00022 15.9997H3.20022V20.7997H8.00022V15.9997ZM14.4002 15.9997H9.60022V20.7997H14.4002V15.9997ZM20.8002 15.9997H16.0002V20.7997H20.8002V15.9997ZM17.6002 9.59968H12.8002V14.3997H17.6002V9.59968ZM11.2002 9.59968H6.40022V14.3997H11.2002V9.59968Z"
+										fill="#008088" />
+								</svg>
+								Площадь: 10 000 кв м
+							</div>
+							<div class="cod__image_list_item">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M16 12V15M16 12H17.8031C18.921 12 19.48 12 19.9074 11.7822C20.2837 11.5905 20.5905 11.2837 20.7822 10.9074C21 10.48 21 9.921 21 8.80309V8.19691C21 7.07899 21 6.5192 20.7822 6.0918C20.5905 5.71547 20.2837 5.40973 19.9074 5.21799C19.4796 5 18.9203 5 17.8002 5H14.2002C13.0801 5 12.5196 5 12.0918 5.21799C11.7155 5.40973 11.4097 5.71547 11.218 6.0918C11 6.51962 11 7.08009 11 8.2002V8.80019C11 9.9203 11 10.4796 11.218 10.9074C11.4097 11.2837 11.7155 11.5905 12.0918 11.7822C12.5192 12 13.079 12 14.1969 12H16ZM7 10L5 12L3 10M3 7L5 5L7 7M3 21.0002V19.2002C3 18.0801 3 17.5196 3.21799 17.0918C3.40973 16.7155 3.71547 16.4097 4.0918 16.218C4.51962 16 5.08009 16 6.2002 16H17.8002C18.9203 16 19.4796 16 19.9074 16.218C20.2837 16.4097 20.5905 16.7155 20.7822 17.0918C21 17.5192 21 18.079 21 19.1969V21.0002"
+										stroke="#008088" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+								Возможность эксплуатации 24 000 майнеров
+							</div>
+						</div>
+						<img src="img/cod__img.png" alt="cod__img">
+					</div>
+					<a href="#" class="cod__link">
+						Посмотреть инвестиционное предложение
+					</a>
+				</div>
+			</section>
+			<section class="banner">
+				<div class="container">
+					<div class="banner__block">
+						<div class="banner__block_left">
+							<h2 class="banner__block_left_title">
+								За 7+ лет работы команда Юмайнерс накопила огромный опыт в сфере добычи как в России, так и за
+								пределами страны
+							</h2>
+							<p class="banner__block_left_text">
+								Мы создаем тренды в мире майнинга и уверены в каждом из своих решений
+							</p>
+						</div>
+						<div class="banner__block_right">
+							<img src="img/busines__banner_01.png" alt="banner__img">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="banner revers">
+				<div class="container">
+					<div class="banner__block">
+						<div class="banner__block_left">
+							<h2 class="banner__block_left_title">
+								Мы открыты для общения
+							</h2>
+							<p class="banner__block_left_text">
+								Приезжайте к нам в офис для знакомства. Личное общение добавит ясности и поможет принять
+								взвешенное решение
+							</p>
+							<a href="#" class="banner__block_left_btn">
+								Забронировать встречу
+							</a>
+						</div>
+						<div class="banner__block_right">
+							<img src="img/busines__banner_02.png" alt="banner__img">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="question">
+				<div class="container">
+					<h2 class="question__title">
+						Ответы на часто задаваемые вопросы
+					</h2>
+					<div class="question__accordeon">
+						<div class="question__accordeon_item">
+							<div class="question__accordeon_item_title">
+								Через какое время с момента заключения договора я смогу получить первую прибыль?
+								<div>
+									<svg class="question__accordeon_item_plus" width="24" height="24" viewBox="0 0 24 24"
+										fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_2013_931)">
+											<path d="M3.75 12H20.25" stroke="black" stroke-width="1.5" stroke-linecap="round"
+												stroke-linejoin="round" />
+											<path d="M12 3.75V20.25" stroke="black" stroke-width="1.5" stroke-linecap="round"
+												stroke-linejoin="round" />
+										</g>
+										<defs>
+											<clipPath id="clip0_2013_931">
+												<rect width="24" height="24" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+									<svg class="question__accordeon_item_minus" width="24" height="24" viewBox="0 0 24 24"
+										fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_2013_1049)">
+											<path d="M3.75 12H20.25" stroke="black" stroke-width="1.5" stroke-linecap="round"
+												stroke-linejoin="round" />
+										</g>
+										<defs>
+											<clipPath id="clip0_2013_1049">
+												<rect width="24" height="24" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+								</div>
+							</div>
+							<div class="question__accordeon_item_content">
+								После заключения договора нам необходимо будет доставить майнеры в ЦОД. И с момента установки
+								оборудования в нашем ЦОД вы сможете получать первую прибыль
+							</div>
+						</div>
+						<div class="question__accordeon_item">
+							<div class="question__accordeon_item_title">
+								Почему стоит разместить оборудование в дата центре «Юмайнерс», если я имею доступ к более
+								дешевой электроэнергии?
+								<div>
+									<svg class="question__accordeon_item_plus" width="24" height="24" viewBox="0 0 24 24"
+										fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_2013_931)">
+											<path d="M3.75 12H20.25" stroke="black" stroke-width="1.5" stroke-linecap="round"
+												stroke-linejoin="round" />
+											<path d="M12 3.75V20.25" stroke="black" stroke-width="1.5" stroke-linecap="round"
+												stroke-linejoin="round" />
+										</g>
+										<defs>
+											<clipPath id="clip0_2013_931">
+												<rect width="24" height="24" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+									<svg class="question__accordeon_item_minus" width="24" height="24" viewBox="0 0 24 24"
+										fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_2013_1049)">
+											<path d="M3.75 12H20.25" stroke="black" stroke-width="1.5" stroke-linecap="round"
+												stroke-linejoin="round" />
+										</g>
+										<defs>
+											<clipPath id="clip0_2013_1049">
+												<rect width="24" height="24" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+								</div>
+							</div>
+							<div class="question__accordeon_item_content">
+								После заключения договора нам необходимо будет доставить майнеры в ЦОД. И с момента установки
+								оборудования в нашем ЦОД вы сможете получать первую прибыль
+							</div>
+						</div>
+						<div class="question__accordeon_item">
+							<div class="question__accordeon_item_title">
+								Какие риски могут быть при размещении оборудования в дата центре?
+								<div>
+									<svg class="question__accordeon_item_plus" width="24" height="24" viewBox="0 0 24 24"
+										fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_2013_931)">
+											<path d="M3.75 12H20.25" stroke="black" stroke-width="1.5" stroke-linecap="round"
+												stroke-linejoin="round" />
+											<path d="M12 3.75V20.25" stroke="black" stroke-width="1.5" stroke-linecap="round"
+												stroke-linejoin="round" />
+										</g>
+										<defs>
+											<clipPath id="clip0_2013_931">
+												<rect width="24" height="24" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+									<svg class="question__accordeon_item_minus" width="24" height="24" viewBox="0 0 24 24"
+										fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_2013_1049)">
+											<path d="M3.75 12H20.25" stroke="black" stroke-width="1.5" stroke-linecap="round"
+												stroke-linejoin="round" />
+										</g>
+										<defs>
+											<clipPath id="clip0_2013_1049">
+												<rect width="24" height="24" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+								</div>
+							</div>
+							<div class="question__accordeon_item_content">
+								После заключения договора нам необходимо будет доставить майнеры в ЦОД. И с момента установки
+								оборудования в нашем ЦОД вы сможете получать первую прибыль
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="price">
+				<div class="container">
+					<div class="price__block">
+						<div class="price__left">
+							<h2 class="price__left_title">
+								Оставьте свои контактные данные
+							</h2>
+							<p class="price__left_text">
+								Ведущий специалист отдела продаж «Юмайнерс» перезвонит вам в течение часа
+							</p>
+						</div>
+						<form action="form" class="price__right">
+							<input type="text" placeholder="Введите номер телефона" class="price__right_input">
+							<input type="text" placeholder="Как вас зовут?" class="price__right_input">
+							<button class="price__right_btn">
+								Оставить заявку
+							</button>
+							<p class="price__right_text">
+								Заполняя данную форму, вы даете согласие на обработку персональных данных в соответствии с
+								Политикой конфиденциальности
+							</p>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		@include('partials/footer.html')
+	</div>
+</body>
+
+</html>
